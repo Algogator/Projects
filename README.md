@@ -192,6 +192,11 @@ After you've established an employee hierarchy, create a Company class that allo
 
 Threading
 ---------
+**web crawler** - have a pool of threads getting work from a dispatcher via a queue, download web pages and return the results somewhere.
+
+**chat server** - accepting permanent connections from users and dispatching messages from one to another.
+
+**mp3 file organizer** - rebuild a music library's structure from mp3 tag data, and reorganize them in folders. you can have multiple threads working at once.
 
 **Create A Progress Bar for Downloads** - Create a progress bar for applications that can keep track of a download in progress. The progress bar will be on a separate thread and will communicate with the main thread using delegates.
 
